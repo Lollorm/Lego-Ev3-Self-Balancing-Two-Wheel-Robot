@@ -49,6 +49,7 @@ while True:
         break
 
     # error from the desired angle where the robot balances correctly
+    # increase the error to make the robot move forward or backward
     error = g.angle() 
 
     ev3.screen.print(g.angle())
